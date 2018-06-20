@@ -1,0 +1,61 @@
+body {
+  /*background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/squares.png) */
+  background-image: url(hypnotize.png);
+}
+  
+.box {
+  display: inline-block;       
+  border: 1px solid black;
+  width: 15px;
+  height: 15px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  color: #fff
+  }
+
+.off {
+  /*background-color: lightgray;*/
+
+  background: rgb(217,217,230);
+  background: linear-gradient(to right, 
+    rgba(217,217,230,0.5228466386554622) 0%, 
+    rgba(182,182,237,0.5088410364145659) 33%, 
+    rgba(212,250,251,0.3715861344537815) 58%, 
+    rgba(190,255,222,0.38559173669467783) 100%);
+} 
+
+.on {
+  background-color: green;
+
+}
+  
+.box:hover { 
+  /*background: #b2ff90;*/
+  background: #BB5031D8
+}
+
+.center {
+  margin: auto;
+  display: table;
+  margin-top: 10px;
+}
+
+.grid {
+  width: 150px;
+  line-height: 0;
+  margin: auto;
+  box-shadow: 0px 0px 20px #b9502d75;
+  margin-top: 20px;
+}
+  
+h1, h2, h3, h4 {
+  -webkit-text-stroke: 0.5px #f75252;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  margin-top: 10px;
+}
+
+h4 {
+  margin-top: 0px;
+}
