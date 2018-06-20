@@ -220,7 +220,7 @@ class Main extends Component {
 	render() {
 		return (
 			<div>
-				<h1>Duperino</h1>
+				<h1>Game of Life</h1>
 				<Buttons
 					playButton={this.playButton}
 					pauseButton={this.pauseButton}
